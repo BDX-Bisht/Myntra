@@ -1,0 +1,552 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto;
+}
+
+
+header {
+    width: 100%;
+}
+
+.navbar1 {
+    margin: auto;
+    display: flex;
+    background-color: white;
+}
+
+.navbar1 a {
+    font-weight: bold;
+    color: #383333;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Roboto;
+}
+
+
+
+.logo {
+    margin-top: 15px;
+    margin-left: 53px;
+}
+
+.navbar2 {
+    position: relative;
+    width: 1129px;
+    display: flex;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+nav>ul>li {
+    padding: 16px 17px;
+}
+
+.megamenu1,
+.megamenu2,
+.megamenu3,
+.megamenu4,
+.megamenu5 {
+    position: absolute;
+    top: 80%;
+    left: 0px;
+    opacity: 0;
+    visibility: hidden;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 31rem;
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 10px 25px 0px #8f8b8b;
+}
+
+.megamenu6 {
+    position: absolute;
+    top: 80%;
+    left: 15rem;
+    opacity: 0;
+    visibility: hidden;
+    width: 50%;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 10px 25px 0px #8f8b8b;
+}
+
+nav>ul>li:hover .megamenu1,
+nav>ul>li:hover .megamenu2,
+nav>ul>li:hover .megamenu3,
+nav>ul>li:hover .megamenu4,
+nav>ul>li:hover .megamenu5 {
+    opacity: 1;
+    top: 80%;
+    transition: 0.5s;
+    visibility: visible;
+}
+
+nav>ul>li:hover .megamenu6 {
+    opacity: 1;
+    top: 80%;
+    transition: 0.5s;
+    visibility: visible;
+}
+
+#studiologo {
+    margin-top: 22px;
+    margin-bottom: 15px;
+}
+
+
+#studio p {
+    color: #6c6767;
+}
+
+#explore {
+    margin-top: 27px;
+    padding: 7px 30px;
+    font-size: 13px;
+    cursor: pointer;
+    border: 1px solid;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#searchbtn {
+    border: none;
+    background-color: #f1efef;
+    height: 33px;
+    width: 35px;
+    margin-top: 22px;
+    margin-left: 13rem;
+}
+
+#mens,
+#women,
+#kids,
+#home,
+#beauty {
+    padding: 15px 40px;
+}
+
+#mens ul,
+#women ul,
+#kids ul,
+#home ul,
+#beauty ul {
+    list-style: none;
+}
+
+#mens ul li a,
+#women ul li a,
+#kids ul li a,
+#home ul li a,
+#beauty ul li a {
+    font-weight: normal;
+    font-size: 13px;
+}
+
+#mens ul li a:hover,
+#women ul li a:hover,
+#kids ul li a:hover,
+#home ul li a:hover,
+#beauty ul li a:hover {
+    font-weight: bold;
+    font-size: 13.9px;
+}
+
+#mens p {
+    font-size: 14px;
+    color: #ed2d2d;
+    font-weight: bold;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#women p {
+    font-size: 14px;
+    color: #b182a1;
+    font-weight: bold;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#kids p {
+    font-size: 14px;
+    color: rgb(211, 115, 98);
+    font-weight: bold;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#beauty p {
+    font-size: 14px;
+    color: rgb(139, 61, 136);
+    font-weight: bold;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#home p {
+    font-size: 14px;
+    color: rgb(197, 195, 43);
+    font-weight: bold;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#search {
+    padding: 17px 10px;
+    height: 31px;
+    border: none;
+    margin-top: 22px;
+    font-size: 13px;
+    width: 17rem;
+    background: #f1efef;
+}
+
+#search:hover {
+    border: none;
+}
+
+
+
+#profile {
+    margin-top: 16px;
+    margin-left: 26px;
+    text-align: center;
+    position: relative;
+}
+
+#profile p {
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+#wishlist p {
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+#wishlist {
+    margin-top: 19px;
+    text-align: center;
+}
+
+#bag {
+    margin-top: 18px;
+    margin-left: 25px;
+    text-align: center;
+}
+
+#bag p {
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 3px
+}
+
+#carousel {
+    margin-top: 7.5rem;
+}
+
+.megamenu7 {
+    position: absolute;
+    top: 80%;
+    left: -9rem;
+    opacity: 0;
+    visibility: hidden;
+    flex-wrap: wrap;
+    width: 18rem;
+    background-color: white;
+    box-shadow: 0px 10px 25px 0px #8f8b8b;
+}
+
+.megamenuitems7 {
+    text-align: left;
+    padding: 20px;
+}
+
+.megamenuitems7 h5 {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.megamenuitems7 h6 {
+    font-size: 13px;
+}
+
+#login {
+    font-size: 13px;
+    font-weight: bold;
+    color: #e33f5b;
+    border: 1px solid #e7e3e3;
+    padding: 8px 17px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#login:hover {
+    border: 1px solid rgb(201, 4, 125);
+}
+
+.megamenu7 ul {
+    list-style: none;
+}
+
+.megamenuitems7 ul li a {
+    font-weight: 100;
+    color: #666262;
+    text-transform: capitalize;
+}
+
+.megamenuitems7 ul li a:hover {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+
+#profile:hover .megamenu7 {
+    opacity: 1;
+    top: 80%;
+    transition: 0.5s;
+    visibility: visible;
+}
+
+.flat {
+    display: flex;
+    color: #fcfcfc;
+    position: absolute;
+    background-color: #535766;
+    top: 55%;
+    z-index: 50;
+    right: -8rem;
+    cursor: pointer;
+    padding: 8px 30px;
+    position: fixed;
+    transform: rotate(-90deg);
+}
+
+.flat2 {
+    display: flex;
+    display: none;
+    color: #fcfcfc;
+    position: fixed;
+    background-color: #535766;
+    top: 55%;
+    z-index: 50;
+    right: 450px;
+    cursor: pointer;
+    padding: 8px 30px;
+    transform: rotate(-90deg);
+}
+
+.flat h3,
+.flat2 h3 {
+    margin-bottom: 0px;
+    font-size: 23px;
+    margin-right: 4rem;
+    font-weight: bold;
+}
+
+.avail {
+    background-image: linear-gradient(270deg, #fef9e5, #fde3f3);
+    position: absolute;
+    position: fixed;
+    top: 214px;
+    padding: 1px 30px;
+    padding-top: 30px;
+    right: 0px;
+    width: 43%;
+    z-index: 50;
+    color: #3e3a3a;
+    display: none;
+}
+
+.avail h6 {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.avail h1 {
+    font-weight: bold;
+    font-size: 47px;
+}
+
+.avail h2 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.avail h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 35px;
+}
+
+.avail p {
+    font-size: 14px;
+}
+
+.avail img {
+    margin-top: -23px;
+    margin-left: 12px;
+}
+
+.avail button {
+    border: 2px solid #a54f5f;
+    background: #a54f5f;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 41px;
+}
+
+.avail button:hover {
+    background-color: #924553;
+}
+
+#try {
+    font-size: 14px;
+    margin-top: -7px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#deal {
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+
+#deal h1 {
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: 4.1px;
+    font-size: 27px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+
+#deal1 div div {
+    padding: 0px;
+}
+
+#exclusive {
+    margin: 3rem 0px;
+}
+
+#exclusive h1 {
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: 4.1px;
+    font-size: 27px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+#footer ul {
+    list-style: none;
+}
+
+#footer h6 {
+    font-size: 12px;
+    margin-top: 25px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #282c3f;
+}
+
+#footer ul li a {
+    color: #696b79;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#fb {
+    margin-right: 10px;
+    margin-top: -20px;
+}
+
+#original {
+    font-size: 15px;
+    font-weight: 400;
+    color: #282c3f;
+    padding-top: 25px;
+}
+
+#original p {
+    padding-right: 80px;
+}
+
+#footer1 a {
+    text-decoration: none;
+    color: #696b79;
+    font-size: 15px;
+}
+
+#concern p {
+    font-size: 16px;
+    color: #696b79;
+}
+
+#concern p:last-child {
+    margin-left: 33rem;
+}
+
+#office h3 {
+    font-size: 15px;
+    color: #282c3f;
+    font-weight: bold;
+}
+
+#office p {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #94969f;
+}
+
+#office div:last-child {
+    margin-top: 6rem;
+}
+
+#office a {
+    font-weight: bold;
+}
+
+#about h3 {
+    font-size: 14px;
+    color: #535766;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+#about p {
+    font-size: 13.5px;
+    color: #94969f;
+}
+
+#about ol {
+    padding: 0px 30px;
+    font-size: 13.5px;
+    color: #94969f;
+}
+
+#about ol li {
+    margin-bottom: 15px;
+}
+
+#about ol li span {
+    font-weight: bold;
+    color: #535766;
+}
